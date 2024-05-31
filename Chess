@@ -1,1 +1,46 @@
-chess
+,<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Box</title>
+    <style>
+        /* Style for search container */
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        /* Style for search input */
+        .search-input {
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            width: 300px;
+            font-size: 16px;
+            outline: none;
+        }
+        /* Style for search button */
+        .search-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        /* Style for search button on hover */
+        .search-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Enter your search query...">
+        <button class="search-button">Search</button>
+    </div>
+</body>
+</html>chess
